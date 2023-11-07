@@ -1,33 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-04T14:34:05 IST" name="Default suite" finished-at="2023-11-04T14:34:31 IST" duration-ms="25471">
+  <suite started-at="2023-11-06T16:09:04 IST" name="Default suite" finished-at="2023-11-06T16:09:39 IST" duration-ms="34894">
     <groups>
     </groups>
-    <test started-at="2023-11-04T14:34:05 IST" name="Default test" finished-at="2023-11-04T14:34:31 IST" duration-ms="25471">
-      <class name="login.TC_01_Test">
-        <test-method is-config="true" signature="launchingBrowserAndNavigateToApp()[pri:0, instance:login.TC_01_Test@55634720]" started-at="2023-11-04T14:34:06 IST" name="launchingBrowserAndNavigateToApp" finished-at="2023-11-04T14:34:26 IST" duration-ms="20396" status="PASS">
+    <test started-at="2023-11-06T16:09:04 IST" name="Default test" finished-at="2023-11-06T16:09:39 IST" duration-ms="34894">
+      <class name="login.DWS_Login_01_Test">
+        <test-method is-config="true" signature="launchingBrowserAndNavigateToApp()[pri:0, instance:login.DWS_Login_01_Test@4b0d79fc]" started-at="2023-11-06T16:09:04 IST" name="launchingBrowserAndNavigateToApp" finished-at="2023-11-06T16:09:32 IST" duration-ms="27664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingBrowserAndNavigateToApp -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:login.TC_01_Test@55634720]" started-at="2023-11-04T14:34:26 IST" name="loginToApplication" finished-at="2023-11-04T14:34:26 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:login.DWS_Login_01_Test@4b0d79fc]" started-at="2023-11-06T16:09:33 IST" name="loginToApplication" finished-at="2023-11-06T16:09:33 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="launchingFlipkart()[pri:0, instance:login.TC_01_Test@55634720]" started-at="2023-11-04T14:34:26 IST" name="launchingFlipkart" finished-at="2023-11-04T14:34:30 IST" duration-ms="4083" status="PASS">
+        <test-method signature="Login_to_application_with_valid_credentials(java.lang.String,java.lang.String)[pri:0, instance:login.DWS_Login_01_Test@4b0d79fc]" started-at="2023-11-06T16:09:33 IST" name="Login_to_application_with_valid_credentials" data-provider="data" finished-at="2023-11-06T16:09:35 IST" duration-ms="2332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234ABC]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchingFlipkart -->
-        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:login.TC_01_Test@55634720]" started-at="2023-11-04T14:34:30 IST" name="logoutFromApplication" finished-at="2023-11-04T14:34:30 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- Login_to_application_with_valid_credentials -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:login.DWS_Login_01_Test@4b0d79fc]" started-at="2023-11-06T16:09:35 IST" name="logoutFromApplication" finished-at="2023-11-06T16:09:35 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
-        <test-method is-config="true" signature="teardownTheBrowser()[pri:0, instance:login.TC_01_Test@55634720]" started-at="2023-11-04T14:34:30 IST" name="teardownTheBrowser" finished-at="2023-11-04T14:34:31 IST" duration-ms="583" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:login.DWS_Login_01_Test@4b0d79fc]" started-at="2023-11-06T16:09:35 IST" name="loginToApplication" finished-at="2023-11-06T16:09:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="Login_to_application_with_valid_credentials(java.lang.String,java.lang.String)[pri:0, instance:login.DWS_Login_01_Test@4b0d79fc]" started-at="2023-11-06T16:09:35 IST" name="Login_to_application_with_valid_credentials" data-provider="data" finished-at="2023-11-06T16:09:38 IST" duration-ms="2950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sql@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_application_with_valid_credentials -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:login.DWS_Login_01_Test@4b0d79fc]" started-at="2023-11-06T16:09:38 IST" name="logoutFromApplication" finished-at="2023-11-06T16:09:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="teardownTheBrowser()[pri:0, instance:login.DWS_Login_01_Test@4b0d79fc]" started-at="2023-11-06T16:09:38 IST" name="teardownTheBrowser" finished-at="2023-11-06T16:09:39 IST" duration-ms="516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTheBrowser -->
-      </class> <!-- login.TC_01_Test -->
+      </class> <!-- login.DWS_Login_01_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,5 +1,7 @@
 package login;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -17,7 +19,9 @@ public class DWS_Login_01_Test extends BaseClass {
 		logger.log(Status.INFO, "User click on login link");
 		loginPage.getEmailTF().sendKeys(email);
 		logger.log(Status.INFO, "User Entered Email address");
-		loginPage.getPasswordTF().sendKeys(password);
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		WebElement element=	(WebElement) js.executeScript("return document.querySelector(\"#Password\")");
+		element.sendKeys(password);
 		logger.log(Status.INFO, "User Entered passwrod");
 		loginPage.getLoginButton().click();
 	}
